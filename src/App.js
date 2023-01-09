@@ -7,6 +7,8 @@ function App() {
   const [data, setData] = useState({});
   //used for specific location 
   const [location, setLocation] = useState("");
+  
+  //api key removed for safety
 
   const searchLocation = (event) => {
     if(event.key === "Enter"){
